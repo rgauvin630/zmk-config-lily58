@@ -30,7 +30,7 @@ manifest:
       remote: mctechnology17
       revision: main
     # led indicator
-    - name: zmk-confi
+    - name: zmk-config
       remote: englmaxi
       revision: main  
   self:
