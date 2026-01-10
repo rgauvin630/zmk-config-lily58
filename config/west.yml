@@ -5,7 +5,7 @@ manifest:
     # dongle_display
     - name: englmaxi
       url-base: https://github.com/englmaxi
-    # nice_oled - nice_epaper - dongle_display!view - oled Adapter
+    # nice_oled - nice_epaper - dongle_display!view - oled Adapter - led indicator
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
   projects:
@@ -29,5 +29,9 @@ manifest:
     - name: zmk-oled-adapter
       remote: mctechnology17
       revision: main
+    # led indicator
+    - name: zmk-confi
+      remote: englmaxi
+      revision: main  
   self:
     path: config
